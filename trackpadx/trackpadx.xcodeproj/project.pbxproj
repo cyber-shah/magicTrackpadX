@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71514FFD2B3F5108003DB255 /* trackpadxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71514FFC2B3F5108003DB255 /* trackpadxApp.swift */; };
+		71514FFF2B3F5108003DB255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71514FFE2B3F5108003DB255 /* ContentView.swift */; };
+		715150012B3F5109003DB255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715150002B3F5109003DB255 /* Assets.xcassets */; };
+		715150042B3F5109003DB255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715150032B3F5109003DB255 /* Preview Assets.xcassets */; };
+		7151500E2B3F5109003DB255 /* trackpadxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151500D2B3F5109003DB255 /* trackpadxTests.swift */; };
+		715150182B3F5109003DB255 /* trackpadxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150172B3F5109003DB255 /* trackpadxUITests.swift */; };
+		719EAD762B3F855600DE8E40 /* trackpadxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */; };
+		719EAD7A2B3F85C100DE8E40 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EAD792B3F85C100DE8E40 /* NetworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7151500A2B3F5109003DB255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71514FF12B3F5108003DB255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71514FF82B3F5108003DB255;
+			remoteInfo = trackpadx;
+		};
+		715150142B3F5109003DB255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71514FF12B3F5108003DB255 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71514FF82B3F5108003DB255;
+			remoteInfo = trackpadx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71514FF92B3F5108003DB255 /* trackpadx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackpadx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71514FFC2B3F5108003DB255 /* trackpadxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxApp.swift; sourceTree = "<group>"; };
+		71514FFE2B3F5108003DB255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		715150002B3F5109003DB255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715150032B3F5109003DB255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		715150092B3F5109003DB255 /* trackpadxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpadxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7151500D2B3F5109003DB255 /* trackpadxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxTests.swift; sourceTree = "<group>"; };
+		715150132B3F5109003DB255 /* trackpadxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpadxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		715150172B3F5109003DB255 /* trackpadxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxUITests.swift; sourceTree = "<group>"; };
+		715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		719EAD792B3F85C100DE8E40 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71514FF62B3F5108003DB255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715150062B3F5109003DB255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715150102B3F5109003DB255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71514FF02B3F5108003DB255 = {
+			isa = PBXGroup;
+			children = (
+				71514FFB2B3F5108003DB255 /* trackpadx */,
+				7151500C2B3F5109003DB255 /* trackpadxTests */,
+				715150162B3F5109003DB255 /* trackpadxUITests */,
+				71514FFA2B3F5108003DB255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71514FFA2B3F5108003DB255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71514FF92B3F5108003DB255 /* trackpadx.app */,
+				715150092B3F5109003DB255 /* trackpadxTests.xctest */,
+				715150132B3F5109003DB255 /* trackpadxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71514FFB2B3F5108003DB255 /* trackpadx */ = {
+			isa = PBXGroup;
+			children = (
+				719EAD782B3F85A000DE8E40 /* Networking */,
+				719EAD772B3F857F00DE8E40 /* Views */,
+				71514FFC2B3F5108003DB255 /* trackpadxApp.swift */,
+				715150022B3F5109003DB255 /* Preview Content */,
+			);
+			path = trackpadx;
+			sourceTree = "<group>";
+		};
+		715150022B3F5109003DB255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				715150032B3F5109003DB255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7151500C2B3F5109003DB255 /* trackpadxTests */ = {
+			isa = PBXGroup;
+			children = (
+				715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */,
+				7151500D2B3F5109003DB255 /* trackpadxTests.swift */,
+			);
+			path = trackpadxTests;
+			sourceTree = "<group>";
+		};
+		715150162B3F5109003DB255 /* trackpadxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				715150172B3F5109003DB255 /* trackpadxUITests.swift */,
+			);
+			path = trackpadxUITests;
+			sourceTree = "<group>";
+		};
+		719EAD772B3F857F00DE8E40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				715150002B3F5109003DB255 /* Assets.xcassets */,
+				71514FFE2B3F5108003DB255 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		719EAD782B3F85A000DE8E40 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				719EAD792B3F85C100DE8E40 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71514FF82B3F5108003DB255 /* trackpadx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7151501D2B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadx" */;
+			buildPhases = (
+				71514FF52B3F5108003DB255 /* Sources */,
+				71514FF62B3F5108003DB255 /* Frameworks */,
+				71514FF72B3F5108003DB255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trackpadx;
+			productName = trackpadx;
+			productReference = 71514FF92B3F5108003DB255 /* trackpadx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		715150082B3F5109003DB255 /* trackpadxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715150202B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadxTests" */;
+			buildPhases = (
+				715150052B3F5109003DB255 /* Sources */,
+				715150062B3F5109003DB255 /* Frameworks */,
+				715150072B3F5109003DB255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7151500B2B3F5109003DB255 /* PBXTargetDependency */,
+			);
+			name = trackpadxTests;
+			productName = trackpadxTests;
+			productReference = 715150092B3F5109003DB255 /* trackpadxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		715150122B3F5109003DB255 /* trackpadxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715150232B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadxUITests" */;
+			buildPhases = (
+				7151500F2B3F5109003DB255 /* Sources */,
+				715150102B3F5109003DB255 /* Frameworks */,
+				715150112B3F5109003DB255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				715150152B3F5109003DB255 /* PBXTargetDependency */,
+			);
+			name = trackpadxUITests;
+			productName = trackpadxUITests;
+			productReference = 715150132B3F5109003DB255 /* trackpadxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71514FF12B3F5108003DB255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					71514FF82B3F5108003DB255 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					715150082B3F5109003DB255 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 71514FF82B3F5108003DB255;
+					};
+					715150122B3F5109003DB255 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 71514FF82B3F5108003DB255;
+					};
+				};
+			};
+			buildConfigurationList = 71514FF42B3F5108003DB255 /* Build configuration list for PBXProject "trackpadx" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71514FF02B3F5108003DB255;
+			productRefGroup = 71514FFA2B3F5108003DB255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71514FF82B3F5108003DB255 /* trackpadx */,
+				715150082B3F5109003DB255 /* trackpadxTests */,
+				715150122B3F5109003DB255 /* trackpadxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71514FF72B3F5108003DB255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715150042B3F5109003DB255 /* Preview Assets.xcassets in Resources */,
+				715150012B3F5109003DB255 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715150072B3F5109003DB255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715150112B3F5109003DB255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71514FF52B3F5108003DB255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719EAD7A2B3F85C100DE8E40 /* NetworkManager.swift in Sources */,
+				71514FFF2B3F5108003DB255 /* ContentView.swift in Sources */,
+				71514FFD2B3F5108003DB255 /* trackpadxApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715150052B3F5109003DB255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7151500E2B3F5109003DB255 /* trackpadxTests.swift in Sources */,
+				719EAD762B3F855600DE8E40 /* trackpadxUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7151500F2B3F5109003DB255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715150182B3F5109003DB255 /* trackpadxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7151500B2B3F5109003DB255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71514FF82B3F5108003DB255 /* trackpadx */;
+			targetProxy = 7151500A2B3F5109003DB255 /* PBXContainerItemProxy */;
+		};
+		715150152B3F5109003DB255 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71514FF82B3F5108003DB255 /* trackpadx */;
+			targetProxy = 715150142B3F5109003DB255 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7151501B2B3F5109003DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7151501C2B3F5109003DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7151501E2B3F5109003DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trackpadx/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7151501F2B3F5109003DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trackpadx/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		715150212B3F5109003DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trackpadx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trackpadx";
+			};
+			name = Debug;
+		};
+		715150222B3F5109003DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trackpadx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trackpadx";
+			};
+			name = Release;
+		};
+		715150242B3F5109003DB255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trackpadx;
+			};
+			name = Debug;
+		};
+		715150252B3F5109003DB255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = trackpadx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71514FF42B3F5108003DB255 /* Build configuration list for PBXProject "trackpadx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7151501B2B3F5109003DB255 /* Debug */,
+				7151501C2B3F5109003DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7151501D2B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7151501E2B3F5109003DB255 /* Debug */,
+				7151501F2B3F5109003DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715150202B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715150212B3F5109003DB255 /* Debug */,
+				715150222B3F5109003DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715150232B3F5109003DB255 /* Build configuration list for PBXNativeTarget "trackpadxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715150242B3F5109003DB255 /* Debug */,
+				715150252B3F5109003DB255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71514FF12B3F5108003DB255 /* Project object */;
+}
