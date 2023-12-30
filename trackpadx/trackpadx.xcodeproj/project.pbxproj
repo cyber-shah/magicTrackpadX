@@ -14,7 +14,8 @@
 		7151500E2B3F5109003DB255 /* trackpadxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151500D2B3F5109003DB255 /* trackpadxTests.swift */; };
 		715150182B3F5109003DB255 /* trackpadxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150172B3F5109003DB255 /* trackpadxUITests.swift */; };
 		719EAD762B3F855600DE8E40 /* trackpadxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */; };
-		719EAD7A2B3F85C100DE8E40 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EAD792B3F85C100DE8E40 /* NetworkManager.swift */; };
+		719EAD7A2B3F85C100DE8E40 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EAD792B3F85C100DE8E40 /* Client.swift */; };
+		71F217D42B3FC4B8009AF7D7 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F217D32B3FC4B8009AF7D7 /* Browser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +46,9 @@
 		715150132B3F5109003DB255 /* trackpadxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpadxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		715150172B3F5109003DB255 /* trackpadxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxUITests.swift; sourceTree = "<group>"; };
 		715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		719EAD792B3F85C100DE8E40 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		719EAD792B3F85C100DE8E40 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		719EADB32B3F994500DE8E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		71F217D32B3FC4B8009AF7D7 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +145,8 @@
 		719EAD782B3F85A000DE8E40 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				719EAD792B3F85C100DE8E40 /* NetworkManager.swift */,
+				719EAD792B3F85C100DE8E40 /* Client.swift */,
+				71F217D32B3FC4B8009AF7D7 /* Browser.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -278,7 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				719EAD7A2B3F85C100DE8E40 /* NetworkManager.swift in Sources */,
+				71F217D42B3FC4B8009AF7D7 /* Browser.swift in Sources */,
+				719EAD7A2B3F85C100DE8E40 /* Client.swift in Sources */,
 				71514FFF2B3F5108003DB255 /* ContentView.swift in Sources */,
 				71514FFD2B3F5108003DB255 /* trackpadxApp.swift in Sources */,
 			);
