@@ -14,6 +14,7 @@ class Client {
 
     // An object you use to browse for available network services.
     private var browser: NWBrowser
+    
     // Store discovered devices
     @Published var discoveredDevices: [NWBrowser.Result] = []
 
@@ -51,5 +52,7 @@ class Client {
                 discoveredDevices.append(result)
             }
         }
+    
+    
 }
 
