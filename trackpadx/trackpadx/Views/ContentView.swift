@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-   var server: Client = Client()
+   var client: Client = Client()
 
     var body: some View {
         NavigationView {
             VStack {
-                List(server.discoveredDevices, id: \.self) { result in
+                List(client.discoveredDevices, id: \.self) { result in
                     // Display discovered devices in a list
                     Text("Hellow")
                 }
@@ -21,7 +21,7 @@ struct ContentView: View {
                 .navigationTitle("Discovered Devices")
 
                 Button("Browse") {
-                    server.startBrowsing()
+                    client.startBrowsing()
                 }
             }
             .padding()

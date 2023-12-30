@@ -8,25 +8,38 @@
 import Foundation
 import Network
 
+let server = MacServer();
+
 class MacServer {
 
-    private var listener: NWListener
+    private var listener: NWListener?
     private var connections: Set<NWConnection> = []
 
     init() {
-        listener = try! NWListener(using: .tcp, on: 0) // 0 means the system will assign a random available port
+        let tcpOptions = NWProtocolTCP.Options()
+                tcpOptions.enableKeepalive = true
+                tcpOptions.keepaliveIdle = 2
+        let parameters = NWParameters(tls: nil, tcp: tcpOptions)
+                parameters.includePeerToPeer = true
+        do {
+            listener = try NWListener(using: parameters)
+            listener?.service = NWListener.Service(name: "server", type: "_superapp._tcp")
+        } catch {
+            print("Error creating NWListener: \(error)")
+            // Handle the error appropriately, e.g., by terminating the application or taking corrective action.
+        }
     }
 
     func startListening() {
-        listener.stateUpdateHandler = { newState in
+        listener?.stateUpdateHandler = { newState in
             print("listener.stateUpdateHandler \(newState)")
         }
 
-        listener.newConnectionHandler = { newConnection in
+        listener?.newConnectionHandler = { newConnection in
             self.handleNewConnection(newConnection)
         }
 
-        listener.start(queue: .main)
+        listener?.start(queue: .main)
     }
 
     private func handleNewConnection(_ newConnection: NWConnection) {
@@ -34,8 +47,7 @@ class MacServer {
             print("newConnection.stateUpdateHandler \(newState)")
             switch newState {
             case .ready:
-                // The connection is established and ready for communication.
-                // Handle your magic trackpad logic here.
+
                 print("Connection ready!")
             case .failed(let error):
                 // Handle the failure.
