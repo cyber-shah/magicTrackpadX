@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717FD4242B3FB1DE00351791 /* MacServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717FD4232B3FB1DE00351791 /* MacServer.swift */; };
+		719EADC12B3FAB9A00DE8E40 /* trackpadServerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EADC02B3FAB9A00DE8E40 /* trackpadServerApp.swift */; };
+		719EADC32B3FAB9A00DE8E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EADC22B3FAB9A00DE8E40 /* ContentView.swift */; };
+		719EADC52B3FAB9B00DE8E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EADC42B3FAB9B00DE8E40 /* Assets.xcassets */; };
+		719EADC82B3FAB9B00DE8E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719EADC72B3FAB9B00DE8E40 /* Preview Assets.xcassets */; };
+		719EADD32B3FAB9C00DE8E40 /* trackpadServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EADD22B3FAB9C00DE8E40 /* trackpadServerTests.swift */; };
+		719EADDD2B3FAB9C00DE8E40 /* trackpadServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EADDC2B3FAB9C00DE8E40 /* trackpadServerUITests.swift */; };
+		719EADDF2B3FAB9C00DE8E40 /* trackpadServerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EADDE2B3FAB9C00DE8E40 /* trackpadServerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		719EADCF2B3FAB9C00DE8E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719EADB52B3FAB9A00DE8E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719EADBC2B3FAB9A00DE8E40;
+			remoteInfo = trackpadServer;
+		};
+		719EADD92B3FAB9C00DE8E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719EADB52B3FAB9A00DE8E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719EADBC2B3FAB9A00DE8E40;
+			remoteInfo = trackpadServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		717FD4232B3FB1DE00351791 /* MacServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacServer.swift; sourceTree = "<group>"; };
+		719EADBD2B3FAB9A00DE8E40 /* trackpadServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = trackpadServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		719EADC02B3FAB9A00DE8E40 /* trackpadServerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadServerApp.swift; sourceTree = "<group>"; };
+		719EADC22B3FAB9A00DE8E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		719EADC42B3FAB9B00DE8E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		719EADC72B3FAB9B00DE8E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		719EADC92B3FAB9B00DE8E40 /* trackpadServer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = trackpadServer.entitlements; sourceTree = "<group>"; };
+		719EADCE2B3FAB9C00DE8E40 /* trackpadServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpadServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719EADD22B3FAB9C00DE8E40 /* trackpadServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadServerTests.swift; sourceTree = "<group>"; };
+		719EADD82B3FAB9C00DE8E40 /* trackpadServerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = trackpadServerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		719EADDC2B3FAB9C00DE8E40 /* trackpadServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadServerUITests.swift; sourceTree = "<group>"; };
+		719EADDE2B3FAB9C00DE8E40 /* trackpadServerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadServerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		719EADBA2B3FAB9A00DE8E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADCB2B3FAB9C00DE8E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADD52B3FAB9C00DE8E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717FD4222B3FB1C100351791 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				717FD4232B3FB1DE00351791 /* MacServer.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		719EADB42B3FAB9A00DE8E40 = {
+			isa = PBXGroup;
+			children = (
+				719EADBF2B3FAB9A00DE8E40 /* trackpadServer */,
+				719EADD12B3FAB9C00DE8E40 /* trackpadServerTests */,
+				719EADDB2B3FAB9C00DE8E40 /* trackpadServerUITests */,
+				719EADBE2B3FAB9A00DE8E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		719EADBE2B3FAB9A00DE8E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				719EADBD2B3FAB9A00DE8E40 /* trackpadServer.app */,
+				719EADCE2B3FAB9C00DE8E40 /* trackpadServerTests.xctest */,
+				719EADD82B3FAB9C00DE8E40 /* trackpadServerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		719EADBF2B3FAB9A00DE8E40 /* trackpadServer */ = {
+			isa = PBXGroup;
+			children = (
+				71F217D02B3FB96C009AF7D7 /* View */,
+				717FD4222B3FB1C100351791 /* Networking */,
+				719EADC02B3FAB9A00DE8E40 /* trackpadServerApp.swift */,
+				719EADC42B3FAB9B00DE8E40 /* Assets.xcassets */,
+				719EADC92B3FAB9B00DE8E40 /* trackpadServer.entitlements */,
+				719EADC62B3FAB9B00DE8E40 /* Preview Content */,
+			);
+			path = trackpadServer;
+			sourceTree = "<group>";
+		};
+		719EADC62B3FAB9B00DE8E40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				719EADC72B3FAB9B00DE8E40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		719EADD12B3FAB9C00DE8E40 /* trackpadServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				719EADD22B3FAB9C00DE8E40 /* trackpadServerTests.swift */,
+			);
+			path = trackpadServerTests;
+			sourceTree = "<group>";
+		};
+		719EADDB2B3FAB9C00DE8E40 /* trackpadServerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				719EADDC2B3FAB9C00DE8E40 /* trackpadServerUITests.swift */,
+				719EADDE2B3FAB9C00DE8E40 /* trackpadServerUITestsLaunchTests.swift */,
+			);
+			path = trackpadServerUITests;
+			sourceTree = "<group>";
+		};
+		71F217D02B3FB96C009AF7D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				719EADC22B3FAB9A00DE8E40 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		719EADBC2B3FAB9A00DE8E40 /* trackpadServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719EADE22B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServer" */;
+			buildPhases = (
+				719EADB92B3FAB9A00DE8E40 /* Sources */,
+				719EADBA2B3FAB9A00DE8E40 /* Frameworks */,
+				719EADBB2B3FAB9A00DE8E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = trackpadServer;
+			productName = trackpadServer;
+			productReference = 719EADBD2B3FAB9A00DE8E40 /* trackpadServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		719EADCD2B3FAB9C00DE8E40 /* trackpadServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719EADE52B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServerTests" */;
+			buildPhases = (
+				719EADCA2B3FAB9C00DE8E40 /* Sources */,
+				719EADCB2B3FAB9C00DE8E40 /* Frameworks */,
+				719EADCC2B3FAB9C00DE8E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719EADD02B3FAB9C00DE8E40 /* PBXTargetDependency */,
+			);
+			name = trackpadServerTests;
+			productName = trackpadServerTests;
+			productReference = 719EADCE2B3FAB9C00DE8E40 /* trackpadServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		719EADD72B3FAB9C00DE8E40 /* trackpadServerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 719EADE82B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServerUITests" */;
+			buildPhases = (
+				719EADD42B3FAB9C00DE8E40 /* Sources */,
+				719EADD52B3FAB9C00DE8E40 /* Frameworks */,
+				719EADD62B3FAB9C00DE8E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719EADDA2B3FAB9C00DE8E40 /* PBXTargetDependency */,
+			);
+			name = trackpadServerUITests;
+			productName = trackpadServerUITests;
+			productReference = 719EADD82B3FAB9C00DE8E40 /* trackpadServerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		719EADB52B3FAB9A00DE8E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					719EADBC2B3FAB9A00DE8E40 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					719EADCD2B3FAB9C00DE8E40 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 719EADBC2B3FAB9A00DE8E40;
+					};
+					719EADD72B3FAB9C00DE8E40 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 719EADBC2B3FAB9A00DE8E40;
+					};
+				};
+			};
+			buildConfigurationList = 719EADB82B3FAB9A00DE8E40 /* Build configuration list for PBXProject "trackpadServer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 719EADB42B3FAB9A00DE8E40;
+			productRefGroup = 719EADBE2B3FAB9A00DE8E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				719EADBC2B3FAB9A00DE8E40 /* trackpadServer */,
+				719EADCD2B3FAB9C00DE8E40 /* trackpadServerTests */,
+				719EADD72B3FAB9C00DE8E40 /* trackpadServerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		719EADBB2B3FAB9A00DE8E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719EADC82B3FAB9B00DE8E40 /* Preview Assets.xcassets in Resources */,
+				719EADC52B3FAB9B00DE8E40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADCC2B3FAB9C00DE8E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADD62B3FAB9C00DE8E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		719EADB92B3FAB9A00DE8E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719EADC32B3FAB9A00DE8E40 /* ContentView.swift in Sources */,
+				717FD4242B3FB1DE00351791 /* MacServer.swift in Sources */,
+				719EADC12B3FAB9A00DE8E40 /* trackpadServerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADCA2B3FAB9C00DE8E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719EADD32B3FAB9C00DE8E40 /* trackpadServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		719EADD42B3FAB9C00DE8E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				719EADDD2B3FAB9C00DE8E40 /* trackpadServerUITests.swift in Sources */,
+				719EADDF2B3FAB9C00DE8E40 /* trackpadServerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719EADD02B3FAB9C00DE8E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719EADBC2B3FAB9A00DE8E40 /* trackpadServer */;
+			targetProxy = 719EADCF2B3FAB9C00DE8E40 /* PBXContainerItemProxy */;
+		};
+		719EADDA2B3FAB9C00DE8E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719EADBC2B3FAB9A00DE8E40 /* trackpadServer */;
+			targetProxy = 719EADD92B3FAB9C00DE8E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		719EADE02B3FAB9C00DE8E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		719EADE12B3FAB9C00DE8E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		719EADE32B3FAB9C00DE8E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = trackpadServer/trackpadServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trackpadServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		719EADE42B3FAB9C00DE8E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = trackpadServer/trackpadServer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"trackpadServer/Preview Content\"";
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		719EADE62B3FAB9C00DE8E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trackpadServer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trackpadServer";
+			};
+			name = Debug;
+		};
+		719EADE72B3FAB9C00DE8E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/trackpadServer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/trackpadServer";
+			};
+			name = Release;
+		};
+		719EADE92B3FAB9C00DE8E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = trackpadServer;
+			};
+			name = Debug;
+		};
+		719EADEA2B3FAB9C00DE8E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9U5GZ99HX3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = None.trackpadServerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = trackpadServer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		719EADB82B3FAB9A00DE8E40 /* Build configuration list for PBXProject "trackpadServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719EADE02B3FAB9C00DE8E40 /* Debug */,
+				719EADE12B3FAB9C00DE8E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719EADE22B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719EADE32B3FAB9C00DE8E40 /* Debug */,
+				719EADE42B3FAB9C00DE8E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719EADE52B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719EADE62B3FAB9C00DE8E40 /* Debug */,
+				719EADE72B3FAB9C00DE8E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		719EADE82B3FAB9C00DE8E40 /* Build configuration list for PBXNativeTarget "trackpadServerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				719EADE92B3FAB9C00DE8E40 /* Debug */,
+				719EADEA2B3FAB9C00DE8E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 719EADB52B3FAB9A00DE8E40 /* Project object */;
+}
