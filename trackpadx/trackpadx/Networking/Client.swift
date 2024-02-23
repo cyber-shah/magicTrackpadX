@@ -10,8 +10,8 @@ import Network
 
 let client = Client();
 
-class Client {
-
+class Client: ObservableObject {
+    
     // An object you use to browse for available network services.
     private var browser: NWBrowser
     
@@ -33,6 +33,7 @@ class Client {
                 }
 
         // A handler that delivers updates about discovered services.
+        // if device is found it appends to the list discoverdDevices
         browser.browseResultsChangedHandler = { results, changes in
                     for result in results {
                         if case NWEndpoint.service = result.endpoint {

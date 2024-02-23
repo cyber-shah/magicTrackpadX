@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         NavigationView {
-            VStack {
-                Button("Browse") {
+                Button("Make device discoverable") {
                     server.startListening()
-                }
             }
             .padding()
         }

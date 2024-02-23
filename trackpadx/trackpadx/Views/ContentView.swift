@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-   var client: Client = Client()
-
+    @StateObject var client: Client = Client()
+    
     var body: some View {
         NavigationView {
             VStack {
-                List(client.discoveredDevices, id: \.self) { result in
+                List($client.discoveredDevices, id: \.self) { $result in
                     // Display discovered devices in a list
-                    Text("Hellow")
+                    Text(String(describing: $result))
                 }
+
                 .listStyle(.plain)
                 .navigationTitle("Discovered Devices")
 
@@ -34,4 +35,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-

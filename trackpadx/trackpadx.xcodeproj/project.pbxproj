@@ -15,7 +15,6 @@
 		715150182B3F5109003DB255 /* trackpadxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150172B3F5109003DB255 /* trackpadxUITests.swift */; };
 		719EAD762B3F855600DE8E40 /* trackpadxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */; };
 		719EAD7A2B3F85C100DE8E40 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719EAD792B3F85C100DE8E40 /* Client.swift */; };
-		71F217D42B3FC4B8009AF7D7 /* Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F217D32B3FC4B8009AF7D7 /* Browser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		715150192B3F5109003DB255 /* trackpadxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackpadxUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		719EAD792B3F85C100DE8E40 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		719EADB32B3F994500DE8E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		71F217D32B3FC4B8009AF7D7 /* Browser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Browser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +144,6 @@
 			isa = PBXGroup;
 			children = (
 				719EAD792B3F85C100DE8E40 /* Client.swift */,
-				71F217D32B3FC4B8009AF7D7 /* Browser.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -219,6 +216,7 @@
 				TargetAttributes = {
 					71514FF82B3F5108003DB255 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
 					};
 					715150082B3F5109003DB255 = {
 						CreatedOnToolsVersion = 15.1;
@@ -281,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71F217D42B3FC4B8009AF7D7 /* Browser.swift in Sources */,
 				719EAD7A2B3F85C100DE8E40 /* Client.swift in Sources */,
 				71514FFF2B3F5108003DB255 /* ContentView.swift in Sources */,
 				71514FFD2B3F5108003DB255 /* trackpadxApp.swift in Sources */,

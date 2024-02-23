@@ -14,8 +14,10 @@ class MacServer {
 
     private var listener: NWListener?
     private var connections: Set<NWConnection> = []
-
+    private var macName: String
+    
     init() {
+        self.macName = Host.current().localizedName ?? ""
         let tcpOptions = NWProtocolTCP.Options()
                 tcpOptions.enableKeepalive = true
                 tcpOptions.keepaliveIdle = 2
@@ -47,7 +49,9 @@ class MacServer {
             print("newConnection.stateUpdateHandler \(newState)")
             switch newState {
             case .ready:
-
+                // The connection is established and ready for communication.
+                // Send metadata to the client.
+                self.sendMetadata(connection: newConnection)
                 print("Connection ready!")
             case .failed(let error):
                 // Handle the failure.
@@ -63,6 +67,28 @@ class MacServer {
         // Add the connection to your set of connections.
         self.connections.insert(newConnection)
     }
+    
+    
+    private func sendMetadata(connection: NWConnection) {
+            // Create a dictionary with metadata (you can add more metadata as needed)
+            let metadata: [String: String] = ["macName": self.macName]
+        print(metadata)
+
+            // Convert the metadata dictionary to Data
+            guard let metadataData = try? JSONSerialization.data(withJSONObject: metadata) else {
+                print("Failed to convert metadata to Data")
+                return
+            }
+
+            // Send metadata to the client
+            connection.send(content: metadataData, completion: .contentProcessed { error in
+                if let error = error {
+                    print("Failed to send metadata: \(error)")
+                } else {
+                    print("Metadata sent successfully")
+                }
+            })
+        }
 }
 
 extension NWConnection: Hashable {
@@ -76,3 +102,4 @@ extension NWConnection: Hashable {
         return lhs.debugDescription == rhs.debugDescription
     }
 }
+
